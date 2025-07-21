@@ -92,3 +92,25 @@ img{
     1s ease-in infinite;
 
 }
+/* *******upcoming-matches********** */
+.upcoming-matches{
+    display: flex;
+    padding: 50px 0;
+    gap: 20px;
+
+}
+.upcoming-matches-left{
+    background-color: black;
+    width: 25%;
+    height: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px
+}
+.upcoming-matches-left .btn:nth-child(1), 
+.upcoming-matches-left .btn:nth-child(2) {
+    background-color: white;
+    color: black;
+}
